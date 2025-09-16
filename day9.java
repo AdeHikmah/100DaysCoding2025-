@@ -10,9 +10,9 @@ public class day9 {
         nama = "Lia";
         kelas = 'A';
         System.out.println("--- Nilai Awal ---");
-        System.out.println( nama);
-        System.out.println(nim);
-        System.out.println(kelas);
+        System.out.println( "Nama : "+ nama);
+        System.out.println("Nim : " + nim);
+        System.out.println("Kelas : " + kelas);
         
         //Update
         nim = "D0224309";
@@ -20,8 +20,9 @@ public class day9 {
         kelas = 'E';
         
         System.out.println("--- Update ---");
-        System.out.println( nama);
-        System.out.println(nim);
-        System.out.println(kelas);
+        System.out.println( "Nama : "+ nama);
+        System.out.println("Nim : " + nim);
+        System.out.println("Kelas : " + kelas);
     }
 }
+

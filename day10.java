@@ -1,14 +1,11 @@
 public class day10 {
     public static void main(String[] args) {
-        // Konstanta adalah variabel yang nilainya tetap (tidak bisa diubah setelah didefinisikan)
-        // Penulisannya menggunakan keyword 'final'
+        // Kecepatan cahaya di ruang hampa nilainya tetap (konstanta)
+        final double C = 299792458; // meter per detik
+        double waktu = 2.5; // detik
+        double jarak = C * waktu;
 
-        final int MAX_USER = 100; // Konstanta untuk batas maksimum user
-
-        // Cetak konstanta ke layar
-        System.out.println("Jumlah maksimum user = " + MAX_USER);
-
-        // Jika mencoba mengubah nilai konstanta, program akan error
-        // Contoh: MAX_USER = 200;  <-- tidak diperbolehkan
+        System.out.println("Kecepatan cahaya: " + C + " m/s");
+        System.out.println("Jarak tempuh cahaya dalam " + waktu + " detik: " + jarak + " meter");
     }
 }

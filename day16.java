@@ -19,7 +19,7 @@ public class day16 {
         int totalBiaya = jumlahBus * BIAYA_BUS;
         
         //hitung biaya per kursi/penumpang
-        double biayaPerKursi = totalBiaya / KAPASITAS_BUS;
+        double biayaPerKursi = (double) totalBiaya / totalKapasitas;
         
         //OUTPUT
         System.out.println("\n=== HASIL PERHITUNGAN ===");

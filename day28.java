@@ -1,12 +1,18 @@
+import java.util.Scanner;
 public class day28 {
     public static void main(String[] args) {
         //operator perbandingan 
-        int angka1 = 78;
-        int angka2 = 75;
-        int angka3 = 75;
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Masukkan angka1 : ");
+        int angka1 = sc.nextInt();
+        System.out.print("Masukkan angka2 : ");
+        int angka2 = sc.nextInt();
         
-        System.out.println(angka1 != angka2);
-        System.out.println(angka2 == angka3);
-        System.out.println(angka3 == angka1);
+        boolean x = angka1 == angka2;
+        boolean y = angka1 != angka2;
+        
+        System.out.println("Apakah " +angka1+ " sama dengan " + angka2 + " ? " + x);
+        System.out.println("Apakah " +angka1+ " tidak sama dengan " + angka2 + " ? " + y);
     }
 }
+

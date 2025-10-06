@@ -20,10 +20,7 @@ public class day29 {
         System.out.println("Apakah berat badan memenuhi syarat (<80 kg)? " + beratCukup);
         
         //narasi hasil akhir
-        if(tinggiCukup && beratCukup){
-            System.out.println("\nSelamat! Anda memenuhi semua syarat untuk naik ");
-        }else{
-            System.out.println("\nMaaf, Anda belum memenuhi syarat keamanan wahana!");
+        System.out.println("Apakah Anda di izinikankan naik wahana? " + (tinggiCukup && beratCukup));
         }
     }
-}
+

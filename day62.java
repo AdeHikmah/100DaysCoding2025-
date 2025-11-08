@@ -5,6 +5,7 @@ public class day62 {
         System.out.print("Masukkan batas angka (N) : ");
         int N = sc.nextInt();
         int total = 0;
+        System.out.print("Total penjumlahan dari 1 sampai " + N + " adalah : ");
         for (int i = 0; i <= N; i++) {
             total += i;
         }

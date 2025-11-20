@@ -28,6 +28,7 @@ public class day74 {
                 case 3:
                     System.out.println("Anda memilih kopi susu Rp 5.000");
                     totalBiaya += 5000;
+                    break;
                 case 4:
                     System.out.println("Anda memilih bakso kuah Rp 10.000");
                     totalBiaya += 10000;

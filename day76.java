@@ -35,6 +35,5 @@ public class day76 {
             }
         }
 
-        sc.close();
     }
 }

@@ -1,8 +1,8 @@
 public class day80 {
     public static void main(String[] args) {
-        String [] lagu = {"Veri Nice", "HOT", "Don't Wanna Cry", "ASH", "SUPER"};
+        String [] lagu = {"Don't Wanna Cry", "HOT", "Lalali", "ASH", "SUPER"};
         
-        System.out.println("Lagu favorit : " + lagu[2]);
+        System.out.println("Lagu favorit : " + lagu[0]);
         System.out.println("Lagu terakhir : " + lagu[4]);
         
         System.out.println("Saya bosan dengan " + lagu[1] + " Ganti jadi Kidult");

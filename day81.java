@@ -13,7 +13,7 @@ public class day81 {
         System.out.println("Nilai Siswa ketiga setelah remedial : " + nilai[2]);
         
         System.out.println("\n--- OPERASI MATEMATIKA ---");
-        double rataRata = (nilai[0] + nilai[1]) /2;
+        double rataRata = (nilai[0] + nilai[1]) /2.0;
         System.out.println("Rata rata nilai Siswa 1 & Siswa 2 : " + rataRata);
     }
     
